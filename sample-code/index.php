@@ -15,12 +15,15 @@ else{$state="home";}
   <head>
     <meta charset="UTF-8">
     <title>title</title>
+
+
+
   </head>
   <body>
 
     <?php
 
-    #$main->getView($state);
+    $main->getView($state);
 
      ?>
 

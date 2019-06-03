@@ -17,11 +17,13 @@ class main{
 
     /**/
     $templates=new templates();
-    $this->templates=templates;
+    $this->templates=$templates;
 
   }
 
   function getView($state){
+
+    $templates=$this->templates;
 
     switch($state){
 

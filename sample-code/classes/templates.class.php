@@ -19,6 +19,8 @@ class templates{
     ?>
       <h2>it's home!</h2>
 
+
+
     <?php
 
   }
