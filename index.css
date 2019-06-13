@@ -1,0 +1,23 @@
+nav li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media (min-width: 0px) {
+  #title-panel {
+    background-image: url(images/homebug-vertical.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 75vw;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #title-panel {
+    background-image: url(images/homebug.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+}
